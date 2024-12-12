@@ -93,7 +93,7 @@ def validate_day(day_arg: str) -> str:
 
 def print_header(day: str) -> None:
     print("\n" + "=" * 60)
-    print(f"🎄 Advent of Code 2023 - Day {day}")
+    print(f"🎄 Advent of Code 2024 - Day {day}")
     print(f"🕒 Running at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60 + "\n")
 

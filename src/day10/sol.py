@@ -109,8 +109,8 @@ def part_two(data: List[str]) -> int:
 
 """
 ============================================================
-🎄 Advent of Code 2023 - Day 10
-🕒 Running at: 2024-12-09 22:10:48
+🎄 Advent of Code 2024 - Day 10
+🕒 Running at: 2024-12-09 22:12:41
 ============================================================
 
 
@@ -119,8 +119,8 @@ def part_two(data: List[str]) -> int:
 | Metric |   Value |
 +--------+---------+
 | Result |     607 |
-| Time   | 16.46ms |
-| Memory |  48.0KB |
+| Time   | 16.68ms |
+| Memory |  80.0KB |
 +--------+---------+
 
 📊 Profile Data (Top 10 functions):
@@ -130,8 +130,8 @@ def part_two(data: List[str]) -> int:
    Ordered by: cumulative time
    List reduced from 13 to 10 due to restriction <10>
   ncalls  tottime  percall  cumtime  percall function
-       1    0.000    0.000    0.016    0.016 part_one
-     235    0.005    0.000    0.015    0.000 bfs
+       1    0.000    0.000    0.017    0.017 part_one
+     235    0.006    0.000    0.016    0.000 bfs
     3687    0.006    0.000    0.008    0.000 find_neighbors
     14898    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
      4901    0.001    0.000    0.001    0.000 {method 'add' of 'set' objects}
@@ -143,8 +143,8 @@ def part_two(data: List[str]) -> int:
 | Metric |    Value |
 +--------+----------+
 | Result |     1384 |
-| Time   | 359.42ms |
-| Memory |  448.0KB |
+| Time   | 361.39ms |
+| Memory |  400.0KB |
 +--------+----------+
 
 📊 Profile Data (Top 10 functions):
@@ -153,12 +153,12 @@ def part_two(data: List[str]) -> int:
 ------------------------------------------------------------
    Ordered by: cumulative time
   ncalls  tottime  percall  cumtime  percall function
-       1    0.006    0.006    0.359    0.359 part_two
-     235    0.343    0.001    0.353    0.002 count_paths_to_nine
+       1    0.006    0.006    0.361    0.361 part_two
+     235    0.345    0.001    0.355    0.002 num_paths_to_nine
     4294    0.007    0.000    0.010    0.000 find_neighbors
     17095    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
      9106    0.001    0.000    0.001    0.000 {built-in method builtins.len}
-       1    0.000    0.000    0.000    0.000 parse
+       1    0.000    0.000    0.001    0.001 parse
        1    0.000    0.000    0.000    0.000 find_pos_with_height
 ------------------------------------------------------------
 """
